@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ejercicio31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ActivityListEmple"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityModifEmple"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityCreateEmple"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
